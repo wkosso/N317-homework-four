@@ -17,6 +17,11 @@ export default function Home() {
     }
   }, [pokeData]);
 
+
+
+
+  
+
   const randomPokemonListJsx = pokeData.randomPokemon.map(function (pokemon) {
     const quickInfo = pokeData.getPokemonQuickInfo(pokemon);
     return (

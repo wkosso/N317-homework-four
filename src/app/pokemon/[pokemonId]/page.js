@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from 'react';
-import pokeDetails from "@/app/pokemon/[pokemonId]/pokemonDetails.module.css";
+
 export default function PokemonDetails({ params }) {
   const { pokemonId } = params; // Get the Pokémon ID from the URL parameters
   const [pokemonDetails, setPokemonDetails] = useState(null);
